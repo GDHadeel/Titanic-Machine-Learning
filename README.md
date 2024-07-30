@@ -19,6 +19,7 @@ To complete this project, you need the following Python libraries:
 
 ### Steps
 #### Importing the Dependencies
+
     ```python
     import numpy as np
     import pandas as pd
