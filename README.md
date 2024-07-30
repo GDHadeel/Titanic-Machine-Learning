@@ -90,7 +90,7 @@ data.drop_duplicates(inplace=True)
 ```
 
 ### 3. Data Analysis
-* Perform exploratory data analysis to understand the dataset and relationships between features.
+Perform exploratory data analysis to understand the dataset and relationships between features.
 ```python
 import seaborn as sns
 import matplotlib.pyplot as plt
