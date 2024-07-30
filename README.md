@@ -127,9 +127,8 @@ Split the data into training and testing sets:
 ```python
 X_train, X_test, y_train, y_test = train_test_split(X_train, y_train, test_size=0.2, random_state=42)
 ```
-
     
-#### 6. Model Training
+##### 3. Model Training
 Train a Logistic Regression model:
 
 ```python
@@ -143,7 +142,7 @@ model = LogisticRegression()
 model.fit(X_train, y_train)
 ```
 
-#### 7. Model Evaluation
+#### 6. Model Evaluation
 Evaluate the model with the accuracy score:
 
 ```python
