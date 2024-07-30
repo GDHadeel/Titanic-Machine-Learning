@@ -151,8 +151,11 @@ accuracy = accuracy_score(y_test, y_pred)
 print(f'Accuracy: {accuracy:.2f}')
 ```
 
-## Acknowledgements
-https://www.youtube.com/watch?v=1tNER04Ytyc&list=LL&index=8&t=874s
+### Google Colab
+You can view and run the full notebook on Google Colab using the following link:
+https://colab.research.google.com/drive/144KTAMelBLmxszAhxwFLXok2639DCiSg#scrollTo=23qsq5sDL_nC&uniqifier=2
 
-https://www.youtube.com/watch?v=kAWNSolkkqg
+## Acknowledgements
+https://www.datacamp.com/blog/classification-machine-learning
+
 
