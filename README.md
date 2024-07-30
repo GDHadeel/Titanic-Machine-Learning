@@ -20,15 +20,15 @@ To complete this project, you need the following Python libraries:
 ### Steps
 #### Importing the Dependencies
 
-    ```python
-    import numpy as np
-    import pandas as pd
-    import matplotlib.pyplot as plt
-    import seaborn as sns
-    from sklearn.model_selection import train_test_split
-    from sklearn.linear_model import LogisticRegression
-    from sklearn.metrics import accuracy_score
-    ```
+```python
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import accuracy_score
+```
      
 #### Reading the Data
 First, load the data from the CSV file into a Pandas DataFrame:
