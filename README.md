@@ -29,7 +29,7 @@ Click the link below to open the notebook in Google Colab and run the code.
 [Google Colab](https://colab.research.google.com/drive/1FV-1R1Un7y-8ntnmimNX4hH_kHkoQVk-#scrollTo=EGhTRZYwYKm4)
 
 ## Code 
-#### 1. Data Loading and Inspection
+### 1. Data Loading and Inspection
 We will load the data and inspect it to ensure it has been read correctly.
 ```python
 import pandas as pd
@@ -44,7 +44,7 @@ data.head()
 data.shape
 ```
      
-#### 2. Data Preprocessing
+### 2. Data Preprocessing
 Data preprocessing involves handling missing values, dropping unnecessary columns, and encoding categorical variables.
 ##### 1. Handling Missing Data
 * Check for missing values:
@@ -89,7 +89,7 @@ data.duplicated().sum()
 data.drop_duplicates(inplace=True)
 ```
 
-#### 3. Data Analysis
+### 3. Data Analysis
 * Perform exploratory data analysis to understand the dataset and relationships between features.
 ```python
 import seaborn as sns
@@ -118,7 +118,7 @@ sns.countplot(x='Pclass', hue='Survived', data=data)
 plt.show()
 ```
     
-##### 4. Model Building
+### 4. Model Building
 Prepare the data for machine learning by separating features and target variables, then train a logistic regression model.
 ##### 1. Separate Features and Target
 ```python
@@ -140,8 +140,7 @@ from sklearn.model_selection import train_test_split
 x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.3, random_state=42)
 ```
 
-
-#### 5. Model Evaluation
+### 5. Model Evaluation
 Evaluate the model's performance using accuracy score.
 ```python
 from sklearn.metrics import accuracy_score
