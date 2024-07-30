@@ -119,7 +119,7 @@ plt.show()
 ```
     
 ##### 4. Model Building
-* Prepare the data for machine learning by separating features and target variables, then train a logistic regression model.
+Prepare the data for machine learning by separating features and target variables, then train a logistic regression model.
 ##### 1. Separate Features and Target
 ```python
 x = data.drop(columns=['Survived'])
