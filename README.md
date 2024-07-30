@@ -113,13 +113,21 @@ sns.countplot(x='Pclass', hue='Survived', data=data)
 ```
 
 #### 5. Model Building
-##### Separating Features and Target
+##### 1. Separating Features and Target
 Separate features and target variable:
 
 ```python
 X_train = data.drop(columns=['Survived'], axis=1)
 y_train = data['Survived']
 ```
+
+##### 2. Splitting the Data
+Split the data into training and testing sets:
+
+```python
+X_train, X_test, y_train, y_test = train_test_split(X_train, y_train, test_size=0.2, random_state=42)
+```
+
     
 #### 6. Model Training
 Train a Logistic Regression model:
