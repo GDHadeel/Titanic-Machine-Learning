@@ -43,7 +43,7 @@ data.head()
 ```
 
 #### 3. Data Preprocessing
-##### Dealing with Missing Data
+##### 1. Dealing with Missing Data
 * Identify missing values:
 
 ```python
@@ -72,7 +72,7 @@ data['Embarked'].fillna(data['Embarked'].mode()[0], inplace=True)
 data['Embarked'].isnull().sum()
 ```
 
-##### Drop Useless Columns
+##### 2. Drop Useless Columns
 Drop the PassengerId and Name columns:
 
 ```python
@@ -80,7 +80,7 @@ data = data.drop(columns=['PassengerId', 'Name'])
 data.head()
 ```
 
-##### Encode Categorical Columns
+##### 3. Encode Categorical Columns
 Convert categorical columns to numerical values:
 
 ```python
@@ -88,7 +88,7 @@ data.replace({'Sex':{'male':0,'female':1},'Embarked':{'S':0,'C':1,'Q':2}}, inpla
 data.head()
 ```
 
-##### Dealing with Duplicates
+##### 4. Dealing with Duplicates
 Check and drop duplicates:
 
 ```python
