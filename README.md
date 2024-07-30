@@ -5,18 +5,18 @@
 ## Description
 This project aims to introduce the most important steps of data analysis and explore the different stages. We will use the data of Titanic survivors available on the Kaggle website.
 
-### Dataset
+## Dataset
 The dataset is available on Kaggle:
 [Download the dataset](https://www.kaggle.com/competitions/titanic/data)
 
-### Project Structure
+## Project Structure
 1. Data Loading and Inspection
 2. Data Preprocessing
 3. Data Analysis
 4. Model Building
 5. Model Evaluation
 
-### Dependencies
+## Dependencies
 To complete this project, you need the following Python libraries:
 * `numpy`
 * `pandas`
@@ -24,11 +24,11 @@ To complete this project, you need the following Python libraries:
 * `seaborn`
 * `scikit-learn`
 
-### Google Colab Notebook
+## Google Colab Notebook
 Click the link below to open the notebook in Google Colab and run the code.
 [Google Colab](https://colab.research.google.com/drive/1FV-1R1Un7y-8ntnmimNX4hH_kHkoQVk-#scrollTo=EGhTRZYwYKm4)
 
-### Code 
+## Code 
 #### 1. Data Loading and Inspection
 We will load the data and inspect it to ensure it has been read correctly.
 ```python
