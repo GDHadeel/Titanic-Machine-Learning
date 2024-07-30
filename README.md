@@ -80,12 +80,18 @@ data.head()
 
 ```
 ##### 4. Handle Duplicates
-* Check for and remove any duplicate rows:
+Check for and remove any duplicate rows:
 ```python
 # Check for duplicates
-data.duplicated().sum()
+duplicates = data.duplicated().sum()
+print(f'Number of duplicate rows: {duplicates}')
 
-# Drop duplicate rows
+# Optionally, print the duplicate rows
+if duplicates > 0:
+    print('Duplicate rows:')
+    print(data[data.duplicated()])
+    
+# Drop duplicate rows if any
 data.drop_duplicates(inplace=True)
 ```
 
