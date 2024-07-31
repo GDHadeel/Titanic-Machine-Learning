@@ -4,7 +4,7 @@
 
 ## Description
 This project aims to introduce the most important steps of data analysis and explore the different stages. We will use the data of Titanic survivors available on the Kaggle website.
-
+ 
 ## Dataset
 The dataset is available on Kaggle:
 [Download the dataset](https://www.kaggle.com/competitions/titanic/data)
